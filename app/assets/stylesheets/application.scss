@@ -11,3 +11,18 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.3;
+}
