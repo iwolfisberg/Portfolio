@@ -29,3 +29,16 @@
   font-weight: bold;
   font-size: 2.2rem;
 }
+
+#scroll {
+  transform: rotate(90deg);
+  width: 10%;
+  display: flex;
+  p {
+    line-height: .9;
+  }
+  .fa-arrow-down {
+    transform: rotate(270deg);
+    text-align: right;
+  }
+}
