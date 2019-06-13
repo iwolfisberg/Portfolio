@@ -9,6 +9,12 @@
   position: relative;
 }
 
+@media(max-width: 992px) {
+  .banner {
+    width: 100%;
+  }
+}
+
 .banner-content {
   width: 100%;
   display: grid;

@@ -4,6 +4,7 @@
   font-weight: 400;
   text-align: center;
   height: 3.5em;
+  width: 100%;
   line-height: 3.5em;
 }
 
@@ -20,5 +21,14 @@
       color: $white-beige;
       text-decoration: none;
     }
+    a:hover {
+      opacity: .8;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .navbar-item {
+    margin: 0 8px;
   }
 }
