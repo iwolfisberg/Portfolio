@@ -1,14 +1,20 @@
-<div class="banner about">
+<div class="banner" id="about">
   <div class="banner-content main-container">
     <%= image_tag('profile2.png', id: "profile_img")%>
     <div class="banner-text">
       <h1>Hi, I'm Iris Wolfisberg</h1>
       <span id="fullstack-dev">Fullstack Developer</span>
       <p>I recently graduated from Le Wagon - Coding Bootcamp. I am all for learning new things and getting out of my comfort zone.</p>
-      <%= link_to 'Download Resume', download_pdf_path, class: "btn-resume mt-6" %>
+      <%= link_to 'Download Resume', download_pdf_path, class: "btn-resume" %>
     </div>
   </div>
   <div id="scroll">
-    <p>Scroll down<br>to see more</p><i class="fas fa-arrow-down"></i>
+    <div class="scroll-text">
+      <%= link_to root_path(anchor: 'skills'), id:"scroll-link" do %>
+        <p>Scroll down<br>to see more</p>
+      <% end %>
+    </div>
+    <i class="fas fa-arrow-right"></i>
   </div>
 </div>
+
