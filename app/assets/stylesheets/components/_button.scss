@@ -10,3 +10,18 @@
   opacity: .8;
   color: $white-beige;
 }
+
+.btn-github {
+  background-color: $pink;
+  color: $white-beige;
+  padding: 5px;
+  border-radius: 5px;
+  width: 35%;
+  text-align: center;
+}
+
+.btn-github:hover {
+  text-decoration: none;
+  opacity: .8;
+  color: $white-beige;
+}

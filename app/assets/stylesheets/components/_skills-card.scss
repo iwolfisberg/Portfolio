@@ -1,4 +1,49 @@
 #skills {
-  // box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
-  height: 100vh;
+  padding: 5em 0;
+  background-color: $deep-purple;
+  opacity: .95;
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main-container > h2 {
+    margin-bottom: 30px;
+    color: $white-beige;
+  }
+}
+
+.skills-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-items: center;
+  .skill-card {
+    width: 180px;
+    height: 150px;
+    background-color: $white-beige;
+    color: $deep-purple;
+    font-size: 60px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p {
+      margin-bottom: 0;
+      font-weight: bolder;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .skills-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 650px) {
+  .skills-cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
