@@ -1,0 +1,22 @@
+.contact {
+  background-color: $deep-purple;
+  opacity: .95;
+  color: $white-beige;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-links {
+  width: 25px;
+  height: 25px;
+  line-height: 25px !important;
+  position: relative;
+  margin: 0 6px;
+  text-align: center;
+  display: inline-block;
+  color: $white-beige;
+}
