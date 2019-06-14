@@ -15,12 +15,12 @@ create_projects("Crazy Cocktails",
   "https://github.com/iwolfisberg/crazy-cocktails",
   "https://crazycocktails.herokuapp.com/")
 create_projects("SlowTraveller",
-  "A team project that was developed during Le Wagon Lausanne. SlowTraveller is an app for people that want to find new destinations to go to and are conscious of their footprint carbon while travelling.",
+  "A team project that was developed during Le Wagon Lausanne. SlowTraveller is an app for people that want to find their next destinations and are conscious of their carbon footprint while travelling.",
   "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342929/SlowTraveller_jld4tm.png",
   "https://github.com/iwolfisberg/slowtraveller",
   "http://slowtraveller.xyz/")
 create_projects("Rent A Cat",
-  "A clone of Airbnb, this Ruby on Rails application was a team project that was developed during Le Wagon Lausanne. This is a fictionnal project.",
+  "A clone of Airbnb, this Ruby on Rails application was a team project that was developed during Le Wagon Lausanne. *This is a fictionnal project.",
   "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342930/RentACat_cj1je1.png",
   "https://github.com/iwolfisberg/rent-a-cat",
   "https://rent-a-cat.herokuapp.com/")
