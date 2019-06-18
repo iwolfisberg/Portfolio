@@ -3,17 +3,17 @@
     <%= image_tag('profile2.png', id: "profile_img")%>
     <div class="banner-text">
       <h1>Hello, je suis Iris Wolfisberg</h1>
-      <span id="fullstack-dev">Fullstack Developer</span>
-      <p>I recently graduated from Le Wagon - Coding Bootcamp. I am all for learning new things and getting out of my comfort zone.</p>
+      <span id="fullstack-dev">Développeuse fullstack</span>
+      <p>J'ai récemment achevé ma formation au Wagon à Lausanne. J'adore apprendre au quotidien et sortir de ma zone de comfort.</p>
       <div id="resume">
-        <%= link_to 'Download Resume', download_pdf_path, class: "btn-resume" %>
+        <%= link_to 'Télécharger mon CV', download_pdf_path, class: "btn-resume" %>
       </div>
     </div>
   </div>
   <div id="scroll">
     <div class="scroll-text">
       <%= link_to root_path(anchor: 'skills'), id:"scroll-link" do %>
-        <p>Scroll down<br>to see more</p>
+        <p>Faire défiler la <br>page pour en<br>savoir plus</p>
       <% end %>
     </div>
     <i class="fas fa-arrow-right"></i>

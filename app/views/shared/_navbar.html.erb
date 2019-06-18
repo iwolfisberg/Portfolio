@@ -4,7 +4,6 @@
     <li class="navbar-item"><%= link_to "Skills", root_path(anchor: "skills") %></li>
     <li class="navbar-item"><%= link_to "Portfolio", root_path(anchor: "projects") %></li>
     <li class="navbar-item"><%= link_to "Contact", root_path(anchor: "contact") %></li>
-    <p class="navbar-item m-0"><%= link_to_unless I18n.locale == :fr, "FR", locale: :fr %>|
-    <%= link_to_unless I18n.locale == :en, "EN", locale: :en %></p>
+    <li class="navbar-item navbar-language"><%= link_to_unless I18n.locale == :fr, "FR", locale: :fr %> | <%= link_to_unless I18n.locale == :en, "EN", locale: :en %></li>
   </ul>
 </div>

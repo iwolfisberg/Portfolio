@@ -24,3 +24,19 @@ create_projects("Rent A Cat",
   "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342930/RentACat_cj1je1.png",
   "https://github.com/iwolfisberg/rent-a-cat",
   "https://rent-a-cat.herokuapp.com/")
+
+create_projects("Crazy Cocktails",
+  "Un simple projet Ruby on Rails permettant aux utilisatuers de créer les recettes de cocktail et de les ajouter à un répertoire public. Ceci était un projet individuel.",
+  "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342929/CrazyCocktails_mzc02k.png",
+  "https://github.com/iwolfisberg/crazy-cocktails",
+  "https://crazycocktails.herokuapp.com/")
+create_projects("SlowTraveller",
+  "Un projet développé en équipe lors des deux dernières semaines du Wagon Lausanne. SlowTraveller est une app pour les voyageurs désireux de trouver la prochaine étape de leur voyage et de s'y rendre avec la plus faible empreinte carbone possible.",
+  "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342929/SlowTraveller_jld4tm.png",
+  "https://github.com/iwolfisberg/slowtraveller",
+  "http://slowtraveller.xyz/")
+create_projects("Rent A Cat",
+  "Clone de AirBnB, cette application Ruby on Rails était un projet développé en équipe lors du Wagon Lausanne. *Ceci est bien sûr un projet fictionnel.",
+  "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342930/RentACat_cj1je1.png",
+  "https://github.com/iwolfisberg/rent-a-cat",
+  "https://rent-a-cat.herokuapp.com/")
