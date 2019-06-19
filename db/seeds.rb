@@ -18,7 +18,7 @@ crazy_cocktails = create_projects("Crazy Cocktails",
   "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342929/CrazyCocktails_mzc02k.png",
   "https://github.com/iwolfisberg/crazy-cocktails",
   "https://crazycocktails.herokuapp.com/",
-  "Un simple projet Ruby on Rails permettant aux utilisatuers de créer les recettes de cocktail et de les ajouter à un répertoire public. Ceci est un projet individuel.")
+  "Un simple projet Ruby on Rails permettant aux utilisateurs de créer des recettes de cocktail et de les ajouter à un répertoire public. Ceci est un projet individuel.")
 slowtraveller = create_projects("SlowTraveller",
   "A team project that was developed during Le Wagon Lausanne. SlowTraveller is an app for people that want to find their next destinations and are conscious of their carbon footprint while travelling.",
   "https://res.cloudinary.com/dotvqg92r/image/upload/c_scale,w_400/v1560342929/SlowTraveller_jld4tm.png",
