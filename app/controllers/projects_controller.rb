@@ -4,10 +4,18 @@ class ProjectsController < ApplicationController
   end
 
   def download_pdf
-    send_file(
-      "#{Rails.root}/public/data/resume_iris_wolfisberg.pdf",
-      filename: "resume_IW.pdf",
-      type: "application/pdf"
-    )
+    if I18n.locale == :en
+      send_file(
+        "#{Rails.root}/public/data/resume_iris_wolfisberg.pdf",
+        filename: "resume_IW.pdf",
+        type: "application/pdf"
+      )
+    else
+      send_file(
+        "#{Rails.root}/public/data/cv_iris_wolfisberg.pdf",
+        filename: "CV_IW.pdf",
+        type: "application/pdf"
+      )
+    end
   end
 end
