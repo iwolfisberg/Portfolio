@@ -6,7 +6,7 @@
         <div class="card-project">
           <div class="card-picture">
             <%= link_to project.site_url, target: "_blank" do %>
-              <%= cl_image_tag project.image %>
+              <%= cl_image_tag project.image, width: 340 %>
             <% end %>
           </div>
           <div class="project-description">
