@@ -22,5 +22,7 @@ module Portfolio
     # the framework and any gems in your application.
     config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :en
+
+    config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
   end
 end
