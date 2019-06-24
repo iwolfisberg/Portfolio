@@ -1,6 +1,9 @@
+require 'yaml'
+
 class ProjectsController < ApplicationController
   def homepage
     @projects = Project.all
+    @skills = YAML.load_file('db/skills.yml')
   end
 
   def download_pdf

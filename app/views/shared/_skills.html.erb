@@ -2,38 +2,12 @@
   <div class="main-container">
     <h2>What I can do</h2>
     <div class="skills-cards">
-      <div class="skill-card">
-        <i class="far fa-gem"></i>
-        <p class="skills-text">Ruby</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-train"></i>
-        <p class="skills-text">Ruby on Rails</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-css3-alt"></i>
-        <p class="skills-text">CSS3</p>
-      </div>
-       <div class="skill-card">
-        <i class="fab fa-html5"></i>
-        <p class="skills-text">HTML5</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-code"></i>
-        <p class="skills-text">Javascript</p>
-      </div>
-      <div class="skill-card">
-        <i class="fas fa-database"></i>
-        <p class="skills-text">SQL & Databases</p>
-      </div>
-      <div class="skill-card">
-        <i class="fab fa-git"></i>
-        <p class="skills-text">Git</p>
-      </div>
-      <!-- <div class="skill-card">
-        <i class="fab fa-bootstrap"></i>
-        <p class="skills-text">Bootstrap</p>
-      </div> -->
+      <% @skills["skills_en"].each do |skill| %>
+        <div class="skill-card">
+          <i class="<%= skill["prefix_icon"] %> <%= skill["icon"] %>"></i>
+          <p class="skills-text"><%= skill["name"] %></p>
+        </div>
+      <% end %>
     </div>
   </div>
 </div>

@@ -1,0 +1,59 @@
+skills_en:
+ -
+  name: Ruby
+  prefix_icon: far
+  icon: fa-gem
+ -
+  name: Ruby on Rails
+  prefix_icon: fas
+  icon: fa-train
+ -
+  name: CSS3
+  prefix_icon: fab
+  icon: fa-css3-alt
+ -
+  name: HTML5
+  prefix_icon: fab
+  icon: fa-html5
+ -
+  name: Javascript
+  prefix_icon: fas
+  icon: fa-code
+ -
+  name: SQL & Databases
+  prefix_icon: fas
+  icon: fa-database
+ -
+  name: Git
+  prefix_icon: fab
+  icon: fa-git
+skills_fr:
+ -
+  name: Ruby
+  prefix_icon: far
+  icon: fa-gem
+ -
+  name: Ruby on Rails
+  prefix_icon: fas
+  icon: fa-train
+ -
+  name: CSS3
+  prefix_icon: fab
+  icon: fa-css3-alt
+ -
+  name: HTML5
+  prefix_icon: fab
+  icon: fa-html5
+ -
+  name: Javascript
+  prefix_icon: fas
+  icon: fa-code
+ -
+  name: SQL & bases de données
+  prefix_icon: fas
+  icon: fa-database
+ -
+  name: Git
+  prefix_icon: fab
+  icon: fa-git
+
