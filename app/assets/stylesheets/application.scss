@@ -39,11 +39,11 @@ p, a {
   }
 
   h2, #fullstack-dev {
-    font-size: calc(17px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(20px + 6 * ((100vw - 320px) / 680));
   }
 
   p, .scroll-text, a {
-    font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(13px + 6 * ((100vw - 320px) / 680));
   }
 }
 @media screen and (min-width: 1000px) {

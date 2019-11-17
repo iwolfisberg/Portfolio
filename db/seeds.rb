@@ -11,6 +11,12 @@ def create_projects(name, description, image, github_url, url, description_fr)
   project.save
 end
 
+tieTalent = create_projects("TieTalent",
+  "TieTalent is a recruting platform which matches candidates and companies. During a 6 months internship, I helped maintained and developed it using Laravel framework.",
+  "seed/tietalent.png",
+  "",
+  "https://tietalent.com/",
+  "TieTalent est une platforme de recrutement qui match candidats et entreprises. Au cours d'un stage de 6 mois, j'ai participé à son maintien et développement à l'aide du framework Laravel.")
 crazy_cocktails = create_projects("Crazy Cocktails",
   "A small Ruby on Rails project that allows users to create their own cocktails to add to a public repository. This was an individual project.",
   "seed/crazycocktail.png",
@@ -29,4 +35,3 @@ rent_a_cat = create_projects("Rent A Cat",
   "https://github.com/iwolfisberg/rent-a-cat",
   "https://rent-a-cat.herokuapp.com/",
   "Clone de AirBnB, cette application Ruby on Rails est un projet développé en équipe lors du Wagon Lausanne. *Ceci est bien sûr un projet fictionnel.")
-
