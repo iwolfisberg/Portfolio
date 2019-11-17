@@ -34,7 +34,6 @@
 #fullstack-dev {
   color: $pink;
   font-weight: bold;
-  font-size: 2.2rem;
 }
 
 #scroll {
@@ -50,7 +49,6 @@
       line-height: .9;
       color: $gray;
       font-weight: 300;
-      font-size: 16px;
     }
     a:hover {
       text-decoration: none;
@@ -60,6 +58,10 @@
     text-align: right;
     font-size: 16px;
   }
+}
+
+.navbar-toggler.toggler-example {
+  outline: none;
 }
 
 @media(max-width: 992px) {
@@ -79,5 +81,17 @@
   }
   #scroll {
     display: none;
+  }
+}
+
+@media(max-width:360px) {
+  .banner-content #profile_img {
+    width:80%;
+  }
+}
+
+@media(max-width:175px) {
+  .banner-content #profile_img {
+    width:80%;
   }
 }

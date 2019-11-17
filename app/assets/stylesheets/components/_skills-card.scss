@@ -19,7 +19,7 @@
   grid-gap: 30px;
   justify-items: center;
   .skill-card {
-    width: 180px;
+    width: 170px;
     height: 150px;
     background-color: $white-beige;
     color: $deep-purple;
@@ -42,7 +42,7 @@
   }
 }
 
-@media(max-width: 650px) {
+@media(max-width: 768px) {
   .skills-cards {
     grid-template-columns: 1fr 1fr;
   }
@@ -51,5 +51,9 @@
 @media(max-width: 400px) {
   .skills-cards {
     grid-template-columns: 1fr;
+    .skill-card {
+      width:85%;
+      height: 112%;
+    }
   }
 }

@@ -56,3 +56,14 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media(max-width: 370px) {
+  .cards-project .card-project {
+    width:fit-content;
+  }
+
+  .cards-project img {
+    max-width:100%;
+    height:auto;
+  }
+}

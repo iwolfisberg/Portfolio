@@ -1,5 +1,13 @@
 skills_en:
  -
+  name: PHP
+  prefix_icon: fab
+  icon: fa-php
+ -
+  name: Laravel
+  prefix_icon: fab
+  icon: fa-laravel
+ -
   name: Ruby
   prefix_icon: far
   icon: fa-gem
@@ -20,7 +28,11 @@ skills_en:
   prefix_icon: fas
   icon: fa-code
  -
-  name: SQL & Databases
+  name: Jquery
+  prefix_icon: fas
+  icon: fa-dollar-sign
+ -
+  name: MySQL & PostgreSQL
   prefix_icon: fas
   icon: fa-database
  -
@@ -29,6 +41,14 @@ skills_en:
   icon: fa-git
 skills_fr:
  -
+  name: PHP
+  prefix_icon: fab
+  icon: fa-php
+ -
+  name: Laravel
+  prefix_icon: fab
+  icon: fa-laravel
+ -
   name: Ruby
   prefix_icon: far
   icon: fa-gem
@@ -49,7 +69,11 @@ skills_fr:
   prefix_icon: fas
   icon: fa-code
  -
-  name: SQL & bases de données
+  name: Jquery
+  prefix_icon: fas
+  icon: fa-dollar-sign
+ -
+  name: MySQL & PostgreSQL
   prefix_icon: fas
   icon: fa-database
  -
